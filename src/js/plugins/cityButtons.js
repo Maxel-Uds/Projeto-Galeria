@@ -1,4 +1,6 @@
 import $ from 'jquery';
+import { onLoadHtmlSuccess } from '../core/includes';
+
 const animationDuration = 300;
 
 function filterByCity(city) {
@@ -43,4 +45,6 @@ $.fn.cityButtons = function() {
     return this;
 }
 
-$('[wm-city-buttons]').cityButtons();
+onLoadHtmlSuccess(function() {
+    $('[wm-city-buttons]').cityButtons();
+});
