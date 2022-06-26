@@ -1,2 +1,3 @@
 # Projeto-Galeria
-Projeto feito durante o curso de Desenvolvimento Web Moderno usando Bootstrap, JQuery e Webpack
+* Projeto feito durante o curso de Desenvolvimento Web Moderno
+* Tecnologias: Bootstrap, JQuery e Webpack
